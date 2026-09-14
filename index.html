@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="icon" type="image/svg+xml" href="/vite.svg">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <title>Maison Furniture — Crafted for Modern Living</title>
+  <meta property="og:image" content="https://bolt.new/static/og_default.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="https://bolt.new/static/og_default.png">
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body data-page="home">
+  <div id="header-slot"></div>
+
+  <!-- Hero -->
+  <section class="hero">
+    <div class="hero-bg">
+      <img src="https://images.pexels.com/photos/6580396/pexels-photo-6580396.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" alt="Beautiful living room">
+    </div>
+    <div class="hero-overlay"></div>
+    <div class="container">
+      <div class="hero-content">
+        <span class="hero-badge">
+          <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M12 2L9.19 8.63L2 9.24l5.45 4.73L5.82 21L12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2z"/></svg>
+          New Autumn Collection 2026
+        </span>
+        <h1>Furniture that feels<br>like home.</h1>
+        <p>Discover thoughtfully crafted furniture designed to transform every room. Built to last, made to love.</p>
+        <div class="flex gap-3" style="flex-wrap:wrap;">
+          <a href="/shop.html" class="btn btn-light btn-lg">Shop the Collection</a>
+          <a href="/shop.html?cat=Sofas" class="btn btn-outline btn-lg" style="color:#fff;border-color:rgba(255,255,255,.3);">Explore Sofas</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Feature strip -->
+  <section class="feature-strip">
+    <div class="container">
+      <div class="feature-strip-grid">
+        <div class="feature-item">
+          <div class="feat-icon"><svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><rect x="1" y="3" width="15" height="13"/><polygon points="16 8 20 8 23 11 23 16 16 16 16 8"/><circle cx="5.5" cy="18.5" r="2.5"/><circle cx="18.5" cy="18.5" r="2.5"/></svg></div>
+          <div><h4>Free Shipping</h4><p>On orders over $99</p></div>
+        </div>
+        <div class="feature-item">
+          <div class="feat-icon"><svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><polyline points="23 4 23 10 17 10"/><path d="M20.49 15a9 9 0 11-2.12-9.36L23 10"/></svg></div>
+          <div><h4>30-Day Returns</h4><p>No questions asked</p></div>
+        </div>
+        <div class="feature-item">
+          <div class="feat-icon"><svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg></div>
+          <div><h4>5-Year Warranty</h4><p>On all furniture</p></div>
+        </div>
+        <div class="feature-item">
+          <div class="feat-icon"><svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M12 2L9.19 8.63L2 9.24l5.45 4.73L5.82 21L12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2z"/></svg></div>
+          <div><h4>Handpicked Quality</h4><p>Curated by experts</p></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Bestsellers -->
+  <section class="section">
+    <div class="container">
+      <div class="section-head">
+        <div>
+          <p class="eyebrow mb-1">Customer Favorites</p>
+          <h2>Bestsellers</h2>
+        </div>
+        <a href="/shop.html" class="text-sm semibold" style="color:var(--ink-3);">View all &rarr;</a>
+      </div>
+      <div class="product-grid" id="bestseller-grid"></div>
+    </div>
+  </section>
+
+  <!-- Categories -->
+  <section class="section bg-surface-2">
+    <div class="container">
+      <div class="text-center mb-8">
+        <p class="eyebrow mb-1">Browse by Category</p>
+        <h2>Shop by Room</h2>
+      </div>
+      <div class="cat-cards">
+        <a href="/shop.html?cat=Sofas" class="cat-card">
+          <img src="https://images.pexels.com/photos/4846097/pexels-photo-4846097.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" alt="Sofas">
+          <div class="cat-card-overlay"></div>
+          <div class="cat-card-label"><h3>Sofas</h3><span>Shop now &rarr;</span></div>
+        </a>
+        <a href="/shop.html?cat=Dining" class="cat-card">
+          <img src="https://images.pexels.com/photos/3935326/pexels-photo-3935326.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" alt="Dining">
+          <div class="cat-card-overlay"></div>
+          <div class="cat-card-label"><h3>Dining</h3><span>Shop now &rarr;</span></div>
+        </a>
+        <a href="/shop.html?cat=Bedroom" class="cat-card">
+          <img src="https://images.pexels.com/photos/4300056/pexels-photo-4300056.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" alt="Bedroom">
+          <div class="cat-card-overlay"></div>
+          <div class="cat-card-label"><h3>Bedroom</h3><span>Shop now &rarr;</span></div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- On Sale -->
+  <section class="section">
+    <div class="container">
+      <div class="section-head">
+        <div>
+          <p class="eyebrow mb-1" style="color:var(--danger);">Limited Time</p>
+          <h2>On Sale</h2>
+        </div>
+        <a href="/shop.html" class="text-sm semibold" style="color:var(--ink-3);">View all &rarr;</a>
+      </div>
+      <div class="product-grid" id="sale-grid"></div>
+    </div>
+  </section>
+
+  <!-- New Arrivals -->
+  <section class="section bg-surface-2">
+    <div class="container">
+      <div class="section-head">
+        <div>
+          <p class="eyebrow mb-1" style="color:var(--success);">Just Landed</p>
+          <h2>New Arrivals</h2>
+        </div>
+        <a href="/shop.html" class="text-sm semibold" style="color:var(--ink-3);">View all &rarr;</a>
+      </div>
+      <div class="product-grid" id="new-grid"></div>
+    </div>
+  </section>
+
+  <!-- Newsletter -->
+  <section class="section newsletter">
+    <div class="container">
+      <h2>Join the Maison family</h2>
+      <p>Subscribe for exclusive offers, new arrivals, and interior design inspiration.</p>
+      <form class="newsletter-form" onsubmit="event.preventDefault();this.reset();alert('Thanks for subscribing!');">
+        <input type="email" placeholder="Enter your email" required>
+        <button type="submit" class="btn btn-accent">Subscribe</button>
+      </form>
+    </div>
+  </section>
+
+  <div id="footer-slot"></div>
+  <div id="cart-slot"></div>
+
+  <script src="/js/app.js"></script>
+  <script src="/js/layout.js"></script>
+  <script>
+    (function() {
+      var P = Maison.PRODUCTS;
+      var hot = P.filter(function(p) { return p.badge === 'hot'; }).slice(0, 4);
+      var sale = P.filter(function(p) { return p.badge === 'sale'; }).slice(0, 4);
+      var ne = P.filter(function(p) { return p.badge === 'new'; }).slice(0, 4);
+      document.getElementById('bestseller-grid').innerHTML = hot.map(Maison.productCardHtml).join('');
+      document.getElementById('sale-grid').innerHTML = sale.map(Maison.productCardHtml).join('');
+      document.getElementById('new-grid').innerHTML = ne.map(Maison.productCardHtml).join('');
+    })();
+  </script>
+</body>
+</html>
